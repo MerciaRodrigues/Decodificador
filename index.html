@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<style>
+     textarea{
+        resize: none;
+     }
+
+</style>
+
+<body>
+
+    
+    <h1>Decodificador de texto</h1>
+   <main>
+    <section>
+        <textarea class= "input-texto" cols="40" rows="8"placeholder="Digite seu texto"></textarea>
+        <div id="div-desaparece">
+           <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+        </div>
+        <div class="botoes">
+            <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Desencriptografar</button>
+        </div>
+    </section>
+
+
+    <section>
+        <textarea class="mensagem" cols="23" rows="10"></textarea>
+        <div id="div-aparece">
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </section>
+</main>
+     <footer>
+           Desenvolvido por: Mércia Alves | Curso Oracle ONE | TURMA3 2022
+      </footer>
+ <script src="script.js"></script>
+
+</body>
+</html> 

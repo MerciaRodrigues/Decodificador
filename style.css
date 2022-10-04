@@ -1,0 +1,132 @@
+*{
+    
+    font-family: 'Anek Telugu', sem serifa;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 150%;
+  
+
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+
+
+}
+
+body {
+      background-image: url(imagens/fundo01.jpg);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    
+
+
+
+} 
+
+.input-texto {
+    margin-top: 20px;
+    background-color: #ffdd00;
+   
+}
+
+h6{
+
+    color: #ffdd00;
+    margin-left: 20px;
+}
+
+.mensagem {
+    position:relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-position: 18px;
+    background-size: 300px;
+    background-color: #ffdd00;
+
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 130px;
+  
+    
+
+}
+
+.copiar {
+    position: relative;;
+    margin-left: 180px;
+    margin-bottom: 120px;
+    border-radius: 12px;
+    margin-top: 25px;
+    border: 1px solid #5f99da;
+    cursor: pointer;
+    background-color: #5f99da;
+    color:white;
+    padding: 5px 60px;
+
+    
+}
+ .copiar:hover{
+    background-color:white ;
+    color: #5f99da;
+
+
+ }
+
+.encriptar {
+    background-color: #5f99da;
+    color:white;
+    border-radius: 12px;
+    border: 1px solid #5f99da;
+    cursor: pointer;
+    padding: 5px 40px;
+    
+    
+
+}
+ .encriptar:hover{
+    background-color:white ;
+    color: #5f99da;
+
+ }
+
+.desencriptar {
+    margin-left: 20px;
+    border-radius: 12px;
+    border: 1px solid #5f99da;
+    cursor: pointer;
+    padding: 5px 30px;
+    
+}
+ .desencriptar:hover{
+
+    background-color: white;
+    color: #5f99da;
+ }
+
+.informacao {
+    font-size: 15px;
+}
+
+footer{
+    background-color: #ffdd00;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+}
